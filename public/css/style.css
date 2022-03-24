@@ -1,0 +1,478 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 12px;
+}
+
+header {
+  background-color: #eac926;
+  box-sizing: border-box;
+  padding-bottom: 15px;
+}
+div.top-header {
+  padding-top: 1%;
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+  width: 100%;
+}
+
+header div.first-nav {
+  padding-top: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+}
+
+header div.logo img {
+  width: 85%;
+  height: 70%;
+}
+
+div.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+}
+
+div.header-title {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+header nav {
+  font-size: 12px;
+}
+
+header ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+div.submit {
+  background-color: #fff;
+  border: 1px solid rgb(71, 70, 70);
+  color: #666;
+  width: 16%;
+  height: 100%;
+  max-width: 24px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+div.input :hover {
+  background-color: rgb(142, 141, 141);
+}
+
+.fa fa-search {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 200px;
+  min-width: 80px;
+  height: 28px;
+}
+
+span .inline {
+  display: inline-block;
+  margin: 8px;
+}
+
+nav ul.general {
+  /* margin-bottom: 20px; */
+  margin-left: 6px;
+}
+nav ul.user {
+  /* margin-top: 20px; */
+  margin-right: 6px;
+}
+ul li {
+  margin: 4px;
+}
+
+div.burger-menu {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+div.burger-menu i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  /* height: 25px; */
+  margin: 10px 0px 20px 0px;
+  padding: 6px;
+  width: 10%;
+  height: 10%;
+}
+
+/* MAIN: PRODUCTS SECTION */
+
+article div.main-article {
+  width: 98%;
+}
+main section div img {
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.discount,
+.description {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h3,
+.description {
+  color: #666;
+}
+
+section.banner img {
+  width: 100%;
+}
+section.banner {
+  box-sizing: border-box;
+  margin-bottom: -7px;
+}
+
+main {
+  box-sizing: border-box;
+  /* width: 100%; */
+  padding-left: 20px;
+  padding-right: 40px;
+  background-color: #ebebeb;
+  border: solid #ebebeb 3px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.main-article {
+  border-top: 1.5px solid #ebebeb;
+  width: 50%;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  box-sizing: border-box;
+}
+
+main section article {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 5px;
+  margin-bottom: 15px;
+}
+
+main section article img {
+  width: 90%;
+}
+
+main section article i,
+.discount {
+  color: #39b54a;
+}
+main section article {
+  /* position: absolute; */
+}
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: solid 1px #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  /* left: 265px; */
+  left: 235px;
+  top: -14px;
+}
+
+main section .number-tags {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+}
+main section .number-tags p {
+  margin-right: 10px;
+}
+
+main section div.main-article h4 {
+  padding-top: 10px;
+  color: #666;
+}
+main section div.main-article p.price {
+  color: rgb(56, 56, 56);
+}
+
+/* --- FOOTER --- */
+
+footer aside {
+  margin-bottom: 45px;
+  margin-top: 4%;
+}
+
+footer div.copyright {
+  display: flex;
+  justify-content: left;
+  align-items: baseline;
+  margin-left: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: rgb(126, 126, 126);
+  /* padding: 45px; */
+}
+
+footer aside h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  color: rgb(72, 72, 72);
+  text-decoration: underline 0.5px;
+}
+
+footer aside div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer aside div p {
+  width: 75%;
+  text-align: center;
+  color: #666;
+}
+
+/* LOGOS  */
+
+footer aside span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1b68dc;
+  font-size: 2.1em;
+}
+
+/* --- MEDIA QUERIES --- */
+
+/* -- MOBILE --  */
+@media (max-width: 429px) {
+  main section div.main-article h4 {
+    display: none;
+  }
+  header nav {
+    display: none;
+  }
+
+  header {
+    padding-bottom: 2px;
+  }
+  main section h3 {
+    margin-bottom: 20px;
+    padding-left: 2%;
+  }
+}
+/* -- TABLET o Mas -- */
+@media (min-width: 430px) {
+  main section .products article {
+    border: solid rgb(186, 186, 186) 0.5px;
+    border-radius: 2.4px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 9px 15px 30px -9px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 9px 15px 30px -9px rgba(0, 0, 0, 0.7);
+    box-shadow: 9px 15px 30px -9px rgba(0, 0, 0, 0.7);
+  }
+  div.burger-menu i {
+    display: none;
+  }
+
+  div.top-header {
+    /* padding-top: 1%;
+    width: 100%; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  header div.logo img {
+    width: 80%;
+    height: 100%;
+  }
+
+  header div.first-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+  }
+  div.header-title {
+    /* display: inline-block; */
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    margin: 1%;
+    width: 50%;
+    margin-bottom: 5px;
+    height: 100%;
+    align-items: flex-end;
+  }
+
+  div.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40%;
+  }
+
+  span .inline {
+    display: inline;
+    margin: 2px;
+  }
+  nav.second-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav ul.user {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38%;
+  }
+  nav ul.general {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38%;
+  }
+  main section h3 {
+    margin-bottom: 20px;
+    padding-left: 8%;
+  }
+  main div.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  main div article {
+    width: 40%;
+    height: 20%;
+  }
+  main div article img {
+    width: 80%;
+    height: 100%;
+    margin: 25px;
+  }
+}
+/* -- DESKTOP -- */
+@media (min-width: 1025px) {
+  header div.first-nav {
+    justify-content: flex-start;
+    width: 70%;
+    margin-left: 20px;
+  }
+  .header-title div {
+    margin: 5px;
+  }
+  .header-title i {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+  nav ul {
+    margin-top: 20px;
+  }
+  nav ul.general {
+    justify-content: flex-start;
+  }
+  nav ul.general li {
+    margin-right: 20px;
+  }
+
+  nav ul.user {
+    justify-content: flex-end;
+  }
+  nav ul.user li {
+    margin-left: 20px;
+  }
+  main h3.section-title {
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  main div.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  main section div article {
+    margin-right: 15px;
+  }
+}

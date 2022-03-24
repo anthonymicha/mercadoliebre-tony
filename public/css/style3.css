@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #eac926;
+  height: 11vh;
+  padding: 7px;
+}
+div.logo {
+  width: 165px;
+  padding-top: 5px;
+}
+body {
+  background-color: #eeeeee;
+}
+main div.main {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+h1 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #000000e6;
+  margin-bottom: 25px;
+}
+
+form {
+  color: rgb(99, 99, 99);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main .input {
+  height: 100%;
+}
+main div.label label {
+  padding-left: 8px;
+  font-size: 0.95rem;
+  color: rgb(60, 60, 60);
+}
+main .input input {
+  width: 100%;
+  height: 43px;
+  color: rgb(99, 99, 99);
+  font-size: 1.1rem;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: solid 1px rgb(175, 175, 175);
+  border-radius: 7px;
+}
+
+main .login-form_actions {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100px;
+}
+button {
+  color: rgb(242, 242, 242);
+  font-weight: bold;
+  height: 48px;
+  font-size: 1.04rem;
+  background: #1b68dc;
+  border: solid 1px rgb(175, 175, 175);
+  border-radius: 7px;
+}
+
+main a {
+  text-decoration: none;
+  color: #1b68dc;
+  font-size: 1.04rem;
+}
+main a span.button {
+  display: flex;
+  justify-content: center;
+}
+div.ayuda {
+  margin-top: 80px;
+}
+
+footer {
+  height: 100%;
+  border-top: solid 0.0001px rgb(99, 99, 99);
+  margin-bottom: 15px;
+}
+footer .footer {
+  padding-top: 15px;
+  padding-right: 28px;
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+footer p {
+  color: rgb(99, 99, 99);
+  height: 20%;
+}
+footer h3 {
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+  font-weight: 100;
+}
+footer p {
+  font-size: 0.8rem;
+}
+/* --- MEDIA QUERIES --- */
+
+/* -- MOBILE --  */
+@media (max-width: 429px) {
+}
+
+/* -- TABLET o Mas -- */
+@media (min-width: 430px) {
+}
+
+/* -- DESKTOP -- */
+@media (min-width: 1025px) {
+}
